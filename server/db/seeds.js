@@ -3,17 +3,17 @@ db.dropDatabase();
 db.bookings.insertMany([
     {
         name: "name 1",
-        checked_in: true,
+        status: "Checked In",
         email: "email@email.com"
     },
     {
         name: "name 2",
-        checked_in: true,
+        status: "Checked In",
         email: "email2@email.com"
     },
     {
         name: "name 3",
-        checked_in: false,
+        status: "Checked Out",
         email: "email3@email.com"
     }
 ]);
