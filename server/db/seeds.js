@@ -1,31 +1,25 @@
 use hotel_bookings;
 db.dropDatabase();
-db.games.insertMany([
+db.bookings.insertMany([
     {
         name: "name 1",
-        checked_in: True,
+        checked_in: true,
         email: "email@email.com"
-
-
     },
     {
-
         name: "name 2",
-        checked_in: True,
+        checked_in: true,
         email: "email2@email.com"
-
-    }
-  {
-
+    },
+    {
         name: "name 3",
-        checked_in: False,
+        checked_in: false,
         email: "email3@email.com"
-
     }
 ]);
 
 
-Message Vinnie
+
 
 
 
